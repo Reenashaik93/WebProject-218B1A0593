@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Signin Process</title>
+        <link rel="stylesheet" href="Mystyles2.css"/>
+    </head>
+    <style> body{
+        background-image: url("img.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    </style>
+    <body>
+        <center>
+            <nav>
+                <ul>
+                    <li><a href=".\Home.html">Home</a></li>
+                    <li><a href=".\About.html">About</a></li>
+                    <li><a href=".\signin.html">Signin</a></li>
+                    <li><a href=".\Login.html">Login</a></li>
+                    <li><a href=".\ContactUs.html">Contact</a></li>
+                </ul>
+            </nav>
+        </center><br>
+        Name:<input type="text" name="uname"><br>
+        Roll.No:<input type="text" name="RollNumber"><br>
+        Email: <input type="email" name="college" id="collegeid"><br>
+        Gender:
+            <input type="radio" name="Gender" value="M">Male
+            <input type="radio" name="Gender" value="F">Female
+            <input type="radio" name="Gender" value="O">Other
+        <br>
+        Date of Birth: <input type="date" name="bname"><br>
+        Mobile no: <input type="tel"name="personal" id="per1" pattern="[0-9]{10}" title="the ten digits number"><br>
+        Branch:
+        <select name="Branch">
+            <option value="CSE">CSE</option>
+            <option value="ECE">ECE</option>
+            <option value="EEE">EEE</option>
+        </select><br>
+        Languages:<br>
+            <input type="checkbox" name="English" value="English">English<br>
+            <input type="checkbox" name="Hindi" value="Hindi">Hindi<br>
+            <input type="checkbox" name="Telugu" value="Telugu">Telugu
+        <br>
+        Address:<br>
+            <textarea name="mytest" cols="35" row="20">
+
+            </textarea> <br>
+        <input type="submit">
+        <footer>
+            <p>&copy;2024 My Company.All rights reserved.</p>
+        </footer>
+    </body>
+</html>
